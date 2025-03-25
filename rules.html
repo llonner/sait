@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com.css?family=Poppins"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+			integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_downward"
+		/>
+		<title>Главная страница</title>
+	</head>
+	<body onload="digitalWatch()">
+		<div class="container">
+			<header>
+				<div class="header_content">
+					<div class="header_title">
+						<p id="digital_watch"></p>
+						<h1>Важность безопасности в интернете</h1>
+					</div>
+					<div class="header_menu">
+						<ul class="menu">
+							<li><a href="index.html">Вирусы</a></li>
+							<li><a href="safety.html">Безопасность</a></li>
+							<li><a href="defense.html">Защита</a></li>
+							<li><a href="rules.html">Правила</a></li>
+							<li><a href="means.html">Средства</a></li>
+							<li><a href="assist.html">Помощь</a></li>
+						</ul>
+					</div>
+				</div>
+			</header>
+			<main>
+				<div class="main">
+					<div class="main_information">
+						<div class="main_content">
+							<div class="main_title"><h2>Правила</h2></div>
+							<div class="main_description">
+								<p>
+									<b>Используйте сложные пароли и двухфакторную аутентификацию (2FA):</b> Для защиты аккаунтов создавайте уникальные и сложные пароли, а также включайте дополнительный уровень безопасности с помощью 2FA.
+								</p>
+							</div>
+						</div>
+						<div class="main_img">
+							<img src="image/img10.jpg" alt="Вирусы" />
+						</div>
+					</div>
+					<div class="main_button">
+						<button class="scroll-down" onclick='scrollToBottom()'>
+							<span>Больше информации <i class="fas fa-arrow-down"></i></span>
+						</button>
+					</div>
+
+				<div class="main_more-information">
+					<div class="main_more-content-information">
+						<div class="main_img">
+							<img class='main_spec-img' src="image/img11.jpg" alt="img2" />
+						</div>
+						<div class="main_more-text-information">
+							<p>
+								<b>Будьте осторожны с ссылками и вложениями:</b> Не открывайте подозрительные ссылки или вложения в письмах, чтобы избежать фишинга и вирусов.
+							</p>
+						</div>
+					</div>
+					<div class="main_more-content-information">
+						<div class="main_more-text-information">
+							<p>
+								<b>Обновляйте программное обеспечение и используйте VPN:</b> Регулярно обновляйте системы и приложения для защиты от уязвимостей и используйте VPN для обеспечения анонимности и безопасности при подключении к сети.
+							</p>
+						</div>
+						<div class="main_img">
+							<img class='main_spec-img' src="image/img12.jpg" alt="img2" />
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer class='footer'>
+				<div class='footer-text'>
+					<p>Сделано чтобы закрыть зачёт</p>
+				</div>
+			</footer>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
